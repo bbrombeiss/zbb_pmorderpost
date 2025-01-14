@@ -138,7 +138,21 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/ZC_BB_PMORDERPOST"
+              "contextPath": "/ZC_BB_PMORDERPOST",
+              "content": {
+                "body": {
+                  "sections": {
+                    "JsonViewer": {
+                      "template": "workforce.ext.fragment.JsonViewer",
+                      "position": {
+                        "placement": "After",
+                        "anchor": "GeneratedFacet1"
+                      },
+                      "title": "JsonViewer"
+                    }
+                  }
+                }
+              }
             }
           }
         }

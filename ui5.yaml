@@ -30,3 +30,8 @@ server:
       configuration:
         component: workforce
         ui5Theme: sap_horizon
+framework:
+  name: SAPUI5
+  version: "1.131.1"
+  libraries:
+    - name: sap.ui.codeeditor

@@ -1,0 +1,18 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:ce="sap.ui.codeeditor" xmlns:macros="sap.fe.macros">
+	<VBox core:require="{ handler: 'workforce/ext/fragment/JsonViewer'}" id="vbox">
+		<Button text="JsonViewer" press="handler.onPress" id="button" />
+
+
+		<ce:CodeEditor
+		type="json"
+		id="editor"
+		value='\{
+		"Chinese" : "你好世界",
+		"Dutch" : "Hallo wereld",
+		"English" : "Hello world",
+		"French" : "Bonjour monde"
+	}'
+	height="300px" />
+
+	</VBox>
+</core:FragmentDefinition>
